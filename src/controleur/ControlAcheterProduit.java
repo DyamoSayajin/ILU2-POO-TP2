@@ -15,5 +15,7 @@ public class ControlAcheterProduit {
 		this.controlTrouverEtalVendeur = controlTrouverEtalVendeur;
 	}
 
-	//TODO a completer
+	public boolean isHabitant(String nomGaulois) {
+		return controlVerifierIdentite.verifierIdentite(nomGaulois);
+	}
 }
